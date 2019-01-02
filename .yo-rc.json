@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Arthur Moura Carvalho",
+      "authorEmail": "armoucar@gmail.com",
+      "authorUrl": ""
+    }
+  }
+}
