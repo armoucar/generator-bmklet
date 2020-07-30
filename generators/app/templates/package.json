@@ -5,12 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "uglifyjs index.js --compress | sed 's/^\\(.*\\)$/javascript:(function () {\\1})();/g'"
+    "build": "minify index.js | sed 's/^\\(.*\\)$/javascript:(function () {\\1})();/g'"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "uglify-js": "^3.4.9"
+    "babel-minify": "^0.5.1"
   }
 }
